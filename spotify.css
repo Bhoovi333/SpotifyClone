@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #1fd53a;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Ubuntu';
+}
+nav ul{align-items: center;
+    display: flex;list-style-type: none;height: 88px;background: #000;color: aliceblue;
+}
+.brand img{width: 50px;padding: 0 8px;
+
+}
+.brand img:hover{width: 50px;padding: 0 8px;border-radius: 50%;
+
+}
+.brand{
+display: flex;align-items: center;font-weight: bolder;font-size: xx-large;
+}
+nav ul li{
+    padding: 0 14px;list-style: none;
+
+}
+nav ul li:hover{
+    padding: 0 14px;list-style: none;font-size:xx-large;color: rgb(30, 244, 30);box-shadow: rgb(124, 128, 124);font-weight: 300;
+
+}
+.container{
+    min-height: 70vh;background: #000;color: rgb(228, 239, 231);font-family: 'Varela Round';
+    display: flex;margin: 23px auto;width: 70%;border-radius: 12px;padding: 34px;
+}
+h1{
+    align-content: center;
+}
+.bottom{color: aliceblue;
+    position: sticky;height: 9vh;background: #131413;bottom: 0;display: flex;justify-content: center;
+align-items: center;flex-direction: column;}
+#myprogresbar{
+    width: 80vw;text-align: center;color: #34bf30;
+}
+.icons{
+    margin-top: 14px;justify-content: space-between;
+}.icons i{
+    cursor: pointer;margin-right: 2rem;
+}
+.icons i:hover{
+    cursor: pointer;font-size: xx-large;color: rgb(17, 212, 17);
+}
+
+    #item1{
+
+    display: flexbox;margin: 1rem 1rem 1rem 1rem;position:absolute;top:20vh;left:30vh;font-size: larger;}
+    #item2{
+
+        display: flexbox;margin: 1rem 1rem 1rem 1rem;position:absolute;top:37vh;left:30vh;font-size: larger;}
+        #item3{
+
+            display: flexbox;margin: 1rem 1rem 1rem 1rem;position:absolute;top:53vh;left:30vh;font-size: larger;}
+            #item4{
+
+             display: flex;margin: 1rem 1rem 1rem 1rem;position:absolute;top:70vh;left:30vh;font-size: larger;}
+             
+                .songitem img{height: 14vh;width: 8vw;display: flex;justify-content: space-between;}
+                .songitem{
+                    display: flex;justify-content: space-between;align-items: center;margin-top: 3vh;margin-bottom: 3vh;
+                    padding-top: 3vh;padding-bottom: 3vh;
+                }
+                .songitem span{display: flex;
+                    justify-content: space-between;align-items: center;margin-right: 3vh;padding-right: 3vh;margin-left: 3vh;padding-left: 3vh;
+                }.songitem span:hover{display: flex;
+                    justify-content: space-between;align-items: center;margin-right: 3vh;padding-right: 3vh;margin-left: 3vh;padding-left: 3vh;
+                color: rgb(6, 195, 6);box-shadow: #16c516;font-weight: 600;font-size: xx-large;}
+                .nav-search{
+                    display: flex;width: 690px;height: 38px;border-radius: 5px;background-color:#23e841;justify-content: space-evenly;
+                border: 2px #23e85e;}
+                
+                .input{
+                    width: 100%;font-size: 1.5rem;font-style:'Varela Round';
+                }
+                .search-icon{
+                    width: 45px;align-items: center;display: flex;justify-content: center;font-size: 1.4rem;
+                }
+                h1:hover{
+font-style: italic;font-size:60px;color: #16c516;
+                }
+                .songitem img:hover{height: 14vh;width: 8vw;display: flex;justify-content: space-between;
+                    border-radius: 50%; box-shadow:4px 4px 4px 4px rgb(114, 194, 114)}
+                    
+                    .artist {font-size: xx-large;font-family: 'Ubuntu';text-align: center;font: bolder;margin: 1vh 1vh 1vh 1vh;padding:1vh 1vh 1vh 1vh ;height: 32vh;}
+                    .artist img{box-shadow:2px 2px #000;
+                        display: flexbox;height: 20vh;width: 10vw;border-radius: 50%;margin: 1vh 1vh 1vh 1vh;padding:1vh 1vh 1vh 1vh ;
+                   align-items: center;justify-content: space-between;margin-top: 50px; }
+                    .artist img:hover{box-shadow:2px 2px #000;
+                        display: flexbox;height: 20vh;width: 16vw;border-radius: 50%;margin: 1vh 1vh 1vh 1vh;padding:1vh 1vh 1vh 1vh ;margin-top: 30px;
+                    }
+                    hr{
+                        color: black;width: 50vw;background-color: #000;
+                    }
+                    #art{
+                        height: 35vh;
+                    }
+                    #art img{
+                        border-radius: 0%;margin-top: 40px;
+                    }
+                    #p1:hover{margin: 1rem,1rem,1rem,1rem;padding:1rem,1rem,1rem,1rem; border: 1px solid rgb(250, 247, 247);text-align: center;
+                    font-weight: bolder; box-shadow:6px 6px #40f313;color: #000;background-color: #e3eae3;}
+                    #p1{margin: 1rem,1rem,8rem,1rem;padding:8rem,1rem,1rem,1rem;background: #000;color: rgb(41, 251, 115);border: 2px solid rgb(33, 236, 26);box-shadow: 9px 9px rgb(204, 248, 139);text-align: center;}
+                    #p2{margin: 1rem,1rem,1rem,1rem;padding:1rem,1rem,1rem,1rem;background: #000;color: rgb(92, 244, 104);border: 2px solid rgb(33, 236, 26);box-shadow: 9px 9px rgb(204, 248, 139);text-align: center}
+                    #p3{margin: 1rem,1rem,1rem,1rem;padding:1rem,1rem,1rem,1rem;border: 2px solid rgb(33, 236, 26);background: #000;color: rgb(65, 240, 65);box-shadow: 9px 9px rgb(204, 248, 139);text-align: center}
+                    #p2:hover{margin: 1rem,1rem,1rem,1rem;padding:1rem,1rem,1rem,1rem; border: 1px solid rgb(250, 247, 247);text-align: center;
+                        font-weight: bolder; box-shadow:6px 6px rgb(139, 229, 3);background-color: #d8e3d8;color: #000;}
+                        #p3:hover{margin: 1rem,1rem,1rem,1rem;padding:1rem,1rem,1rem,1rem; border: 1px solid rgb(250, 247, 247);text-align: center;
+             font-weight: bolder; box-shadow:6px 6px rgb(39, 223, 11);background-color: #eef5ee;color: #131413;}
+    
+    .playlist{
+        display: flex;width: 100%;height: 60vh;flex-direction: row;text-align: center;justify-content: space-between;background: #000;
+   align-items: center;color: aliceblue; }
+    
+    .ply1{
+        display: flex;width: 30%;height: 50vh;flex-direction: row;text-align: center;justify-content: space-between;background: #38e91d;
+        align-items: center;color: rgb(25, 26, 27); border: solid 2px black;}
+         
+    
+       
+    
+        .ply1 span{
+            font-size: xx-large;font-weight: 700;font-family: 'Ubuntu';margin-left: 18vh;margin-top: -40vh;
+           }      
+    .ply1 li{display: flex;
+         border: solid 4px rgb(241, 236, 236);border-radius: 30%;list-style: none;text-align: center;font-size: x-large;
+    color: aliceblue;background: #000;text-align: center;justify-content: center;align-items: center;
+    margin: 1rem 1rem 1rem;padding: 1rem 1rem 1rem ; margin-left: -50vh; }
+    .ply1 li:hover{display: flex;
+        border: solid 5px rgb(22, 248, 74);border-radius: 30%;list-style: none;text-align: center;font-size: xx-large;
+   color: rgb(14, 15, 15);background: #eceaea;text-align: center;justify-content: center;align-items: center;
+   margin: 1rem 1rem 1rem;padding: 1rem 1rem 1rem ; margin-left: -50vh; }
+   .ply1 i{
+    margin-left: 1rem; margin-right: 1rem;
+   }.ply1 i:hover{
+    margin-left: 1rem; margin-right: 1rem;color: #16c516;
+   }
+   .head h1{
+    color: white;background: #000;font-size:40px;font-weight: bolder;font-family: 'Ubuntu';padding-left: 5px;
+   }
